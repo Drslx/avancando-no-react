@@ -1,0 +1,137 @@
+// Regras CSS Drslx
+
+// Header
+.header {
+  background-color: #fff !important;
+}
+
+// Input header
+.search_desktop input {
+  border-radius: 14px !important;
+}
+
+.search_desktop:hover {
+  border-radius: 14px !important;
+  box-shadow: 0 2px 4px #d2d2d6, 0 2px 9px #c90076;
+}
+
+.search_desktop button svg path {
+  fill: #000 !important;
+}
+
+// Carrinho Compras
+.cart_container span,
+svg path {
+  color: #000 !important;
+}
+
+// Banner !desativado
+.block-slider {
+  display: none !important;
+}
+
+// Titulo Principal
+h2.titulo {
+  margin: 0 0 10px 0 !important;
+  color: #000 !important ;
+}
+
+// Section de Produtos
+.produtos {
+  margin-top: 20px;
+}
+
+// Imagem do produto
+.produtos .item img {
+  width: 100% !important;
+  height: 100% !important;
+  border-bottom: 3px solid #c90076;
+  border-radius: 12px 12px 0 0 !important;
+}
+
+// Borda produto
+.produtos div.item {
+  padding: 2px !important;
+  border: 1px solid #eb5794;
+  border-radius: 12px !important;
+}
+// Card do produto
+.prod {
+  padding: 5px !important;
+}
+
+// Titulo do Produto
+h3.produto {
+  font-size: 1.6em !important;
+  line-height: 1.3em !important;
+}
+
+// Textos do produto
+.item,
+h3,
+p,
+a {
+  text-transform: capitalize !important;
+}
+
+// Valor do Produto
+.valor p {
+  color: #c90076;
+  font-size: 2.2em !important;
+}
+
+// Pagina produto
+
+// Subs Links
+.more {
+  border: none !important;
+}
+
+// footer
+footer #base {
+  background-color: #c90076;
+}
+
+footer #base h3 {
+  color: #000 !important ;
+}
+
+// Banner de rede social
+* .social {
+  display: none !important;
+}
+
+// Input de junte-se
+.news div.box {
+  border-radius: 6px;
+}
+
+.news .box button {
+  letter-spacing: 0.12em !important;
+}
+
+.news .box:hover {
+  box-shadow: 0 2px 4px #d2d2d6, 0 2px 9px #c90076;
+}
+
+.news .box p {
+  display: none !important;
+}
+
+// button wp fixed
+#scrollToTop {
+  border-radius: 10px;
+}
+
+#scrollToTop:hover {
+  box-shadow: 0 2px 4px #d2d2d6, 0 2px 9px #c90076;
+width: ;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+
+.central:first-child{
+	border: 1px solid orange !important;
+}

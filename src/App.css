@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+.img-wraper {
+  width: max-content;
+  margin: 0 auto;
+  padding: 10px;
+  display: none;
+  gap: 10px;
+  border: 1px solid;
+}
+
+li:not(ul) {
+  /*   margin-top: 10px; 
+ /*  padding-top: 10px; */
+  color: red;
+  text-align: start;
+  text-decoration: underline;
+  line-height: 1.9em; 
+  list-style: circle;
+  list-style-position: inside;
+}
