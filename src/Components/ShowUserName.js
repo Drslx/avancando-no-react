@@ -1,5 +1,3 @@
-import React from "react";
-
 // Props
 const ShowUserName = (props) => {
   return (

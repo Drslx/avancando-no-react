@@ -1,6 +1,4 @@
-import React from "react";
-
-// Destructuring em props (props), nao preicsa passar props.brand etc
+// Destructuring em props (props), nao precisa passar props.brand etc
 // Reutilizacao de component
 const CarDetails = ({ brand, km, color, newCar }) => {
   return (
